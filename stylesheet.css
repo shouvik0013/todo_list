@@ -30,3 +30,7 @@ body {
     border-radius: 3px;
     color:darkgray
 }
+
+.strike {
+    text-decoration: line-through;
+}
