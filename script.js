@@ -90,3 +90,9 @@ function updateLS() {
     localStorage.setItem('todos', JSON.stringify(todos));
 }
 
+if(window.innerWidth <= 700) {
+    let linebreak = document.createElement('br')
+    let instruction = document.getElementById('instruction');
+    instruction.innerHTML = "Click to toggle complete<br>Press and hold to remove";
+}
+
